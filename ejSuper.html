@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleEjSuper.css">
+    <title>Ejercicio Supermercado</title>
+</head>
+<body>
+    <header id="header">
+        <h1>Alimentación Alfonso</h1>
+    </header>
+    <main>
+        <h2>Productos</h2>
+        <div id="containerMain">
+            <div>
+                <h3><img src="iconos/manzana.png" width="30px"> Manzana: 2€/Kg</h2>
+                <button type="button" onclick="modificar('+', 'manzana')">+</button>
+                <button type="button" onclick="modificar('-', 'manzana')">-</button>
+            </div>
+            <div>
+                <h3><img src="iconos/carne.png" width="30px"> Carne: 5€/Kg</h2>
+                <button type="button" onclick="modificar('+', 'carne')">+</button>
+                <button type="button" onclick="modificar('-', 'carne')">-</button>
+            </div>
+            <div>
+                <h3><img src="iconos/leche.png" width="30px"> Leche: 1€/L</h2>
+                <button type="button" onclick="modificar('+', 'leche')">+</button>
+                <button type="button" onclick="modificar('-', 'leche')">-</button>
+            </div>
+            <div>
+                <h3><img src="iconos/pescado.png" width="30px"> Pescado: 35€/Kg</h2>
+                <button type="button" onclick="modificar('+', 'pescado')">+</button>
+                <button type="button" onclick="modificar('-', 'pescado')">-</button>
+            </div>
+        </div>
+        <h2>Cesta</h2>
+        <div id="cesta"></div>
+    </main>
+    <footer id="footer">2022© Todos los derechos reservados</footer>
+    <script src="ejSuper.js"></script>
+</body>
+</html>
