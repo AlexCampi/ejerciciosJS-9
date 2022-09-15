@@ -16,7 +16,7 @@ paises = [
     {
       pais: "alemania",
       poblacion: 83155031,
-      color: "amarillo",
+      color: "yellow",
       superficie: 375375,
       bandera: "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg"
     },
